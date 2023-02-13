@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #16213E;
+}
+
+.header {
+	padding: 2rem 0;
+	color: #E94560;
+}
+
+.fa-search {
+	position: relative;
+	left: -30px;
+}
+
+.fa-search:hover {
+	cursor: pointer;
+}
+
+.fa-search:before {
+	color: #ca155c;
+}
+
+.input {
+	outline: none;
+	border-radius: 20px;
+	background-color: #c8c1f9;
+	padding-left: .7rem;
+}
+
+#main {
+	border-radius: 10px;
+	padding: 1rem;
+	width: 90vw;
+	margin: auto;
+	background-color: #c8c1f9;
+	height: 70vh;
+	overflow-y: scroll;
+}
+
+#main::-webkit-scrollbar {
+	background: #a5b3f0;
+	border-radius: 30px;
+}
+
+#main::-webkit-scrollbar-thumb {
+	background: #e67979;
+	border-radius: 30px;
+}
+/*#2a3f76*/
+
+.newnote, .lastnote {
+	background-color: #c8c1f9;
+	display: block;
+	border: none;
+	outline: none;
+	width: 100%;
+	resize: none;
+}
+
+.lastnote {
+	color: #666;
+}
+
+.lastnote:focus {
+	color: #000;
+}
+ 
+.add {
+	margin-left: auto;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	background-color: #16213E;
+	color: #E94560;
+	font-size: 2rem;
+	font-weight: 900;
+	text-align: center;
+	user-select: none;
+}
+
+.add:hover {
+	cursor: pointer;
+}
