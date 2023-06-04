@@ -1,0 +1,33 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #ddd;
+	user-select: none;
+}
+
+.reloj {
+	display: inline-flex;
+	padding: 10px;
+	background: linear-gradient(0deg, #777, #222);
+	color: white; 
+	font: 60px monospace;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+.reloj div {
+	padding: 10px;
+}
+
+.minutos {
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+}

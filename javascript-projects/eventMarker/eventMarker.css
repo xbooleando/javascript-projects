@@ -1,0 +1,94 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial;
+	background-color: #ffc0cb;
+	padding: 10px;
+}
+
+.form {
+	background-color: white;
+	padding: 20px;
+	width: 300px;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+button {
+	border: none;
+	background-color: red;
+	padding: 5px;
+	color: white;
+	border-radius: 5px;
+}
+
+.form input {
+	margin: 5px;
+	padding: 5px;
+	display: block;
+	width: 100%;
+}
+
+input[type="button"], input[type="submit"] {
+	border: none;
+	background-color: #1860a8;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#eventsContainer {
+	background-color: white;
+	border-radius: 5px;
+	padding: 15px;
+	width: 500px;
+	margin: 100px auto;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.task {
+	border: 1px solid #ccc;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.event {
+	border: 1px solid #ccc;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.event .days {
+	text-align: center;
+	width: 100px
+}
+
+.event .days .daysNumber {
+	font-size: 30px;
+	font-weight: bold;
+	display: block;
+}
+
+.event .event-name {
+	padding: 10px;
+	width: 200px;
+}
+
+.event .event-date {
+	padding: 10px;
+	width: 120px;
+}
+
+.event .actions {
+	padding: 10px;
+}

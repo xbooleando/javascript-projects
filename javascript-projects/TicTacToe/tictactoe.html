@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="./css/tictactoe.css">
+	<title>Tic-tac-toe</title>
+</head>
+<body>
+	<div class="container abs-center">
+		<h1 class="text-center">Tic Tac Toe</h1>
+		<table class="">
+			<tr>
+				<td class="top left"><div class="cell" data-cell-index="0"></div></td>
+				<td class="top"><div class="cell" data-cell-index="1"></div></td>
+				<td class="top right"><div class="cell" data-cell-index="2"></div></td>
+			</tr>
+			<tr>
+				<td class="left"><div class="cell" data-cell-index="3"></div></td>
+				<td><div class="cell" data-cell-index="4"></div></td>
+				<td class="right"><div class="cell" data-cell-index="5"></div></td>
+			</tr>
+			<tr>
+				<td class="bottom left"><div class="cell" data-cell-index="6"></div></td>
+				<td class="bottom"><div class="cell" data-cell-index="7"></div></td>
+				<td class="bottom right"><div class="cell" data-cell-index="8"></div></td>
+			</tr>
+		</table>
+		<h3 class="text-center game--status"></h3>
+		<input type="button" class="reset" value="RESET">
+		</div>
+	</div>
+	<script type="text/javascript" src="./js/tictactoe.js"></script>
+</body>
+</html>
